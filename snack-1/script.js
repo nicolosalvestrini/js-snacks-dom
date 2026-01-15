@@ -14,7 +14,6 @@ bottone.addEventListener('click', function() {
   const li = document.createElement('li');
   li.textContent = nuoviProdotti[random];
   lista.appendChild(li);
-  prodotti[5] = nuoviProdotti[random];
   prodotti.push(random)
   console.log('Lunghezza array:', prodotti.length);
 });
